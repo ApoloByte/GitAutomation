@@ -1,0 +1,6 @@
+
+# github test; reemplace test con su nombre en las líneas 3 y 6
+Host test.github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_test
