@@ -18,8 +18,9 @@ mkdir -p "$ssh_dir" && chmod 700 "$ssh_dir"
 # Configuración de git
 github_name=$1
 github_email=$2
-
+# Convertir a minúsculas
 git_host=${github_name,,}
+# Reemplazar los espacios por guiono
 git_host=${git_host// /-}
 
 # No tocar el resto del script
