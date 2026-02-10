@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ejemplo de ejecución del bash: 
-##  bash ./config-git-ssh.sh "Victor Pinto" victorpinto@unimayor.edu.co id_victor_pinto
+##  bash ./config-git.sh "Victor Pinto" victorpinto@unimayor.edu.co id_victor_pinto
 
 # Comprobar si se proporcionaron argumentos
 if [ $# -ne 3 ]; then
